@@ -13,4 +13,6 @@ elseif placeid == 6403373529 then -- slap battles
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/slap-battles-script/refs/heads/main/Herkle%20Hub%20Private'))()
 elseif placeid == 17590362521 then -- spelling bee
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/Spelling-Bee-Script/refs/heads/main/spelling%20bee%20script'))()
+elseif placeid == 10449761463 then -- the strongest battlegrounds
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/The-Strongest-Battlegrounds-Script/refs/heads/main/tsb%20script"))()
 end
