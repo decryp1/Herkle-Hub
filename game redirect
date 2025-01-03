@@ -15,4 +15,6 @@ elseif placeid == 17590362521 or 83091000527113 or 17707569217 then -- spelling 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/Spelling-Bee-Script/refs/heads/main/spelling%20bee%20script"))()
 elseif placeid == 10449761463 then -- the strongest battlegrounds
     loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/The-Strongest-Battlegrounds-Script/refs/heads/main/tsb%20script"))()
+elseif placeid == 16991287194 then -- something evil will happen
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/Something-Evil-Will-Happen-script/refs/heads/main/sewh%20script'))()
 end
