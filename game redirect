@@ -18,5 +18,5 @@ elseif placeid == 10449761463 then -- the strongest battlegrounds
 elseif placeid == 16991287194 then -- something evil will happen
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/Something-Evil-Will-Happen-script/refs/heads/main/sewh%20script'))()
 elseif placeid == 11979315221 or placeid == 4282985734 or placeid == 9532476417 or placeid == 12210962090 or placeid == 12901759357 or placeid == 12901760345 or placeid == 16323991061 or placeid == 16323991219 or placeid == 18480122340 or placeid == 18480127448 or placeid == 84113993418228 or placeid == 126747037058638 then
-    loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/Combat-Warriors-script/refs/heads/main/hhcw"))()"))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/Combat-Warriors-script/refs/heads/main/hhcw'))()
 end
