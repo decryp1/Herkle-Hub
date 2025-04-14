@@ -24,5 +24,5 @@ elseif placeid == 11729688377 then -- booga booga reborn
 elseif placeid == 73956553001240 or placeid == 86789627188240 or placeid == 96802054849934 or placeid == 109684591839194 or placeid == 122069199001617 or placeid == 134314141048307 then -- volleyball legends
     loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/Volleyball-Legends/refs/heads/main/script"))()
 elseif placeid == 101020880618316 then -- overtake
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/OVERTAKE/refs/heads/main/overtake%20script"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/OVERTAKE/refs/heads/main/choose"))()
 end
