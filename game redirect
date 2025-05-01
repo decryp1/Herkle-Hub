@@ -25,6 +25,8 @@ elseif placeid == 73956553001240 or placeid == 86789627188240 or placeid == 9680
     loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/Volleyball-Legends/refs/heads/main/script"))()
 elseif placeid == 101020880618316 then -- overtake
     loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/OVERTAKE/refs/heads/main/choose"))()
-elseif placeid == 121308443347459 then -- 7dtl
+elseif placeid == 121308443347459 then -- 7dtl forest
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/7daystolive/refs/heads/main/script'))()
+elseif placeid == 77970919775750 then -- 7dtl moon
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/7daystolive/refs/heads/main/moonmission'))()
 end
