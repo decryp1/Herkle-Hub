@@ -58,6 +58,7 @@ Func = function()
 setclipboard("https://ads.luarmor.net/get_key?for=Herkle_Hub_LootLabs-dwlDbnOWiygS")
 end
 })
+asdasd:AddLabel("discord: dsc.gg/herkle")
 local menu = tabs['UI settings']:AddLeftGroupbox('Menu')
 menu:AddButton('Unload', function() lib:Unload() end)
 menu:AddLabel('Menu bind'):AddKeyPicker('MenuKeybind', {Default = 'End', NoUI = true, Text = 'Menu keybind'})
