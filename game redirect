@@ -35,4 +35,6 @@ elseif placeid == 135516941692071 then -- 7dtl sea
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/7daystolive/refs/heads/main/lostatsea'))()
 elseif placeid == 87700573492940 then -- untitled drill game
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/untitleddrillgame/refs/heads/main/untitleddrillgame'))()
+elseif placeid == 18687417158 then -- forsaken
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/forsaken/refs/heads/main/forsaken%20free'))()
 end
