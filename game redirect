@@ -37,4 +37,6 @@ elseif placeid == 87700573492940 then -- untitled drill game
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/untitleddrillgame/refs/heads/main/untitleddrillgame'))()
 elseif placeid == 18687417158 then -- forsaken
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/forsaken/refs/heads/main/forsaken%20free'))()
+elseif placeid == 3339374541 or placeid == 3771109383 or placeid == 3919153654 or placeid == 3966623866 or placeid == 4101193034 or placeid == 4309142005 or placeid == 4487007745 or placeid == 5025250023 or placeid == 5042129200 or placeid == 5070996153 or placeid == 6834646598 or placeid == 7444724537 or placeid == 10398941424 or placeid == 14219836978 or placeid == 17485826750 or placeid == 18611218320 or placeid == 82811885705476 or placeid == 124953558677708 or placeid == 126761405067557 or placeid == 127134298521756 then -- midnight racing: tokyo
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/mrt/refs/heads/main/midnightracingtokyo'))()
 end
