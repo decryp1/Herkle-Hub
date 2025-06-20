@@ -41,4 +41,6 @@ elseif placeid == 3339374541 or placeid == 3771109383 or placeid == 3919153654 o
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/mrt/refs/heads/main/midnightracingtokyo'))()
 elseif placeid == 6361937392 then -- stfo&btb
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/stfo-btb/refs/heads/main/script'))()
+elseif placeid == 2413927524 then -- the rake remastered
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/therakeremastered/refs/heads/main/script'))()
 end
