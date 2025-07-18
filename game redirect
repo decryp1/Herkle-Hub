@@ -45,4 +45,6 @@ elseif placeid == 2413927524 then -- the rake remastered
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/therakeremastered/refs/heads/main/script'))()
 elseif placeid == 15057331539 then -- outlaster
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/outlaster/refs/heads/main/script'))()
+elseif placeid == 10449761463 then -- the strongest battlegrounds
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1e21021027412223d299cab0a43c04dc.lua"))()
 end
