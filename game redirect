@@ -10,7 +10,7 @@ elseif placeid == 13924946576 then -- dingus
 elseif placeid == 1252559098 then -- snow shoveling simulator
     loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/snow-shoveling-simulator-script/refs/heads/main/snow%20shoveling%20sim%20script'))()
 elseif placeid == 6403373529 then -- slap battles
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/decryp1/slap-battles-script/refs/heads/main/Herkle%20Hub%20Private'))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0f4337cc5c175f29c4bfd0d88d844a94.lua"))()
 elseif placeid == 17590362521 or placeid == 83091000527113 or placeid == 17707569217 or placeid == 91692552632068 or placeid == 133419989757748 or placeid == 70718852079605 or placeid == 115840692772844 or placeid == 135159688166294 then -- spelling bee
     loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/Spelling-Bee-Script/refs/heads/main/spelling%20bee%20script"))()
 elseif placeid == 16991287194 then -- something evil will happen
