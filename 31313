@@ -2,10 +2,9 @@ local repo = "https://raw.githubusercontent.com/decryp1/Obsidian/main/"
 local lib = loadstring(game:HttpGet(repo .. "Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
 local SaveManager = loadstring(game:HttpGet(repo .. "addons/SaveManager.lua"))()
-
 local win = lib:CreateWindow({
 	Title = 'Herkle Hub',
-	Footer = "[BLANK -- PLACE NAME](dsc.gg/herkle)",
+	Footer = "[Herkle Hub Key System](dsc.gg/herkle)",
 	CornerRadius = 10,
 	Icon = 92738315967681,
 	Center = true,
@@ -14,16 +13,13 @@ local win = lib:CreateWindow({
 	Showfixcursor = false,
 	Size = UDim2.fromOffset(495, 222)
 })
-
 local tabs = {
 	main = win:AddTab('main', 'user'),
 	['UI settings'] = win:AddTab('UI settings', 'settings')
 }
-
 local key = ""
 local luarmor = loadstring(game:HttpGet("https://sdkapi-public.luarmor.net/library.lua"))()
 luarmor.script_id = "d3c537afeae2d2813e509760f1c10fa1"
-
 local BLANKBOX = tabs.main:AddLeftGroupbox('Key System')
 BLANKBOX:AddInput('KeyInput', {
 	Default = '',
@@ -52,25 +48,27 @@ end)
 
 local asdasd = tabs.main:AddRightGroupbox('Key Options')
 asdasd:AddButton({Text = "Copy Linkvertise", Func = function()
-	setclipboard("https://ads.luarmor.net/get_key?for=Herkle_Hub_Linkvertise-FbdchXNZPdvU")
+	lib:Notify("Please click the Copy Rinku button below to get a key!", 10)
 end})
 asdasd:AddButton({Text = "Copy LootLabs", Func = function()
-	setclipboard("https://ads.luarmor.net/get_key?for=Herkle_Hub_LootLabs-dwlDbnOWiygS")
+	lib:Notify("Please click the Copy Rinku button below to get a key!", 10)
+end})
+asdasd:AddButton({Text = "Copy Rinku", Func = function()
+	setclipboard("https://ads.luarmor.net/get_key?for=Herkle_Hub_Rinku-WqaianUKptHc")
+	lib:Notify("Key link copied! Paste the link into your browser, get a key, then re-execute and redeem the key!", 15)
 end})
 asdasd:AddLabel("discord: dsc.gg/herkle")
 
 local menu = tabs['UI settings']:AddLeftGroupbox('Menu')
 menu:AddButton('Unload', function() lib:Unload() end)
 menu:AddLabel('Menu bind'):AddKeyPicker('MenuKeybind', {Default = 'End', NoUI = true, Text = 'Menu keybind'})
-
 lib.ToggleKeybind = lib.Options.MenuKeybind
-
 ThemeManager:SetLibrary(lib)
 SaveManager:SetLibrary(lib)
 SaveManager:IgnoreThemeSettings()
 SaveManager:SetIgnoreIndexes({'MenuKeybind'})
-ThemeManager:SetFolder('URFOLDERNAME')
-SaveManager:SetFolder('URFOLDERNAME')
+ThemeManager:SetFolder('hhubkeysystem')
+SaveManager:SetFolder('hhubkeysysten')
 SaveManager:BuildConfigSection(tabs['UI settings'])
 ThemeManager:ApplyToTab(tabs['UI settings'])
 SaveManager:LoadAutoloadConfig()
