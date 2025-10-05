@@ -1,3 +1,6 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/Herkle-Hub/refs/heads/main/game%20redirect"))()
+
+--[[
 local repo = "https://raw.githubusercontent.com/decryp1/Obsidian/main/"
 local lib = loadstring(game:HttpGet(repo .. "Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
@@ -68,3 +71,4 @@ SaveManager:SetFolder('hhubkeysysten')
 SaveManager:BuildConfigSection(tabs['UI settings'])
 ThemeManager:ApplyToTab(tabs['UI settings'])
 SaveManager:LoadAutoloadConfig()
+]]
